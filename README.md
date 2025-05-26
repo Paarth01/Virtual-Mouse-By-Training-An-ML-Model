@@ -61,3 +61,13 @@ python main.py
 ├── gesture_model.h5             # Trained ML model
 └── README.md
 ```
+
+## 🛠️ TODO / Future Enhancements
+
+- Add GUI for gesture training
+- Improve model accuracy using deep learning
+- Support multi-hand gestures
+- Implement calibration step for better precision
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
