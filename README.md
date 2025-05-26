@@ -51,14 +51,13 @@ python main.py
 
 ```bash
 .
-├── dataset
-    ├── fist
-    ├── index_finger
-    ├── pinch
+├── dataset/  # Folder containing training data organized by gesture
+    ├── fist/  # Images for the 'fist' gesture
+    ├── index_finger/ # Images for the 'index finger' gesture
+    ├── pinch/ # Images for the 'pinch' gesture
 ├── detector.py                  # Script to collect gesture data
 ├── train_gesture_model.py       # Train and export ML model
 ├── gesture_mouse_control.py     # Virtual mouse application
 ├── gesture_model.h5             # Trained ML model
-├── requirements.txt             # Python dependencies
 └── README.md
 ```
