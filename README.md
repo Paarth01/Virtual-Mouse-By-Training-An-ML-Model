@@ -47,4 +47,14 @@ pip install opencv-python
 python main.py
 ```
 
+## 📁 Project Structure
 
+```bash
+.
+├── detector.py   # Script to collect gesture data
+├── train_gesture_model.py       # Train and export ML model
+├── gesture_mouse_control.py              # Virtual mouse application
+├── gesture_model.h5            # Trained ML model
+├── requirements.txt     # Python dependencies
+└── README.md
+```
